@@ -1,6 +1,6 @@
-- id: prepare-commit-msg
+- id: commit-msg-with-jira
   name: Add jira ticket ID to commit message
-  entry: ./prepare-commit-msg
+  entry: ./commit-msg-with-jira
   language: script
   stages: [prepare-commit-msg]
   always_run: true
